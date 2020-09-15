@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# 动画-鼠来宝
+ffmpeg -i hls/FDNB5483879/1300/flow.m3u8 -c copy mp4/FDNB5483879/1300/flow.mp4
+ffmpeg -i hls/FDNB5483879/2300/flow.m3u8 -c copy mp4/FDNB5483879/2300/flow.mp4
+ffmpeg -i hls/FDNB5483879/400/flow.m3u8 -c copy mp4/FDNB5483879/400/flow.mp4
+ffmpeg -i hls/FDNB5483879/4000/flow.m3u8 -c copy mp4/FDNB5483879/4000/flow.mp4
+ffmpeg -i hls/FDNB5483879/6000/flow.m3u8 -c copy mp4/FDNB5483879/6000/flow.mp4
+ffmpeg -i hls/FDNB5483879/700/flow.m3u8 -c copy mp4/FDNB5483879/700/flow.mp4
+
+# 电影-哥斯拉2
+ffmpeg -i hls/FDNB5509593/1300/flow.m3u8 -c copy mp4/FDNB5509593/1300/flow.mp4
+ffmpeg -i hls/FDNB5509593/2300/flow.m3u8 -c copy mp4/FDNB5509593/2300/flow.mp4
+ffmpeg -i hls/FDNB5509593/400/flow.m3u8 -c copy mp4/FDNB5509593/400/flow.mp4
+ffmpeg -i hls/FDNB5509593/4000/flow.m3u8 -c copy mp4/FDNB5509593/4000/flow.mp4
+ffmpeg -i hls/FDNB5509593/6000/flow.m3u8 -c copy mp4/FDNB5509593/6000/flow.mp4
+ffmpeg -i hls/FDNB5509593/700/flow.m3u8 -c copy mp4/FDNB5509593/700/flow.mp4
+
+# 新闻-香港新冠
+ffmpeg -i hls/FDNB5542044/1300/flow.m3u8 -c copy mp4/FDNB5542044/1300/flow.mp4
+ffmpeg -i hls/FDNB5542044/2300/flow.m3u8 -c copy mp4/FDNB5542044/2300/flow.mp4
+ffmpeg -i hls/FDNB5542044/400/flow.m3u8 -c copy mp4/FDNB5542044/400/flow.mp4
+ffmpeg -i hls/FDNB5542044/4000/flow.m3u8 -c copy mp4/FDNB5542044/4000/flow.mp4
+ffmpeg -i hls/FDNB5542044/6000/flow.m3u8 -c copy mp4/FDNB5542044/6000/flow.mp4
+ffmpeg -i hls/FDNB5542044/700/flow.m3u8 -c copy mp4/FDNB5542044/700/flow.mp4
+
+# 新闻-媒体大搜索-洪水
+ffmpeg -i hls/FDNB5515013/1300/flow.m3u8 -c copy mp4/FDNB5515013/1300/flow.mp4
+ffmpeg -i hls/FDNB5515013/2300/flow.m3u8 -c copy mp4/FDNB5515013/2300/flow.mp4
+ffmpeg -i hls/FDNB5515013/400/flow.m3u8 -c copy mp4/FDNB5515013/400/flow.mp4
+ffmpeg -i hls/FDNB5515013/4000/flow.m3u8 -c copy mp4/FDNB5515013/4000/flow.mp4
+ffmpeg -i hls/FDNB5515013/6000/flow.m3u8 -c copy mp4/FDNB5515013/6000/flow.mp4
+ffmpeg -i hls/FDNB5515013/700/flow.m3u8 -c copy mp4/FDNB5515013/700/flow.mp4
+
+# 新闻-媒体大搜索-趣味
+ffmpeg -i hls/FDNB5542050/1300/flow.m3u8 -c copy mp4/FDNB5542050/1300/flow.mp4
+ffmpeg -i hls/FDNB5542050/2300/flow.m3u8 -c copy mp4/FDNB5542050/2300/flow.mp4
+ffmpeg -i hls/FDNB5542050/400/flow.m3u8 -c copy mp4/FDNB5542050/400/flow.mp4
+ffmpeg -i hls/FDNB5542050/4000/flow.m3u8 -c copy mp4/FDNB5542050/4000/flow.mp4
+ffmpeg -i hls/FDNB5542050/6000/flow.m3u8 -c copy mp4/FDNB5542050/6000/flow.mp4
+ffmpeg -i hls/FDNB5542050/700/flow.m3u8 -c copy mp4/FDNB5542050/700/flow.mp4
+
+# 新闻-中超体育
+ffmpeg -i hls/FDNB5542171/1300/flow.m3u8 -c copy mp4/FDNB5542171/1300/flow.mp4
+ffmpeg -i hls/FDNB5542171/2300/flow.m3u8 -c copy mp4/FDNB5542171/2300/flow.mp4
+ffmpeg -i hls/FDNB5542171/400/flow.m3u8 -c copy mp4/FDNB5542171/400/flow.mp4
+ffmpeg -i hls/FDNB5542171/4000/flow.m3u8 -c copy mp4/FDNB5542171/4000/flow.mp4
+ffmpeg -i hls/FDNB5542171/6000/flow.m3u8 -c copy mp4/FDNB5542171/6000/flow.mp4
+ffmpeg -i hls/FDNB5542171/700/flow.m3u8 -c copy mp4/FDNB5542171/700/flow.mp4
